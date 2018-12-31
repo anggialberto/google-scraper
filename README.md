@@ -16,7 +16,7 @@ Param:
 
 Example :
 
-GET ```http://googlescraper.herokuapp.com/api/google/article?q=Javascript```
+GET ```https://googlescaper.herokuapp.com/api/google/article?q=Javascriptt```
 
 ## Get Images
 ```
@@ -29,4 +29,4 @@ Param:
 
 Example :
 
-GET ```https://googlescraper.herokuapp.com/api/google/image?q=Javascript```   
+GET ```https://googlescaper.herokuapp.com/api/google/image?q=Javascriptt```   
