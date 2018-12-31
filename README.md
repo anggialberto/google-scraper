@@ -1,6 +1,6 @@
 # Google Scraper
 
-### Fitur
+### Features
 
 * [Get Articles](https://github.com/anggialberto/google-scraper#get-articles)
 * [Get Images](https://github.com/anggialberto/google-scraper#get-images)
@@ -10,11 +10,11 @@
 http://googlescraper.herokuapp.com/api/google/article?q={keywords}&page={page}
 ```
 
-Param:
+***Param :****
 * q (required)
 * page (optional)
 
-Example :
+***Example :***
 
 GET ```https://googlescaper.herokuapp.com/api/google/article?q=Javascript```
 
@@ -23,7 +23,7 @@ GET ```https://googlescaper.herokuapp.com/api/google/article?q=Javascript```
 https://googlescraper.herokuapp.com/api/google/image?q={keywords}&page={page}
 ```
 
-Param:
+***Param :***
 * q (required)
 * page (optional)
 
