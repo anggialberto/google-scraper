@@ -1,4 +1,4 @@
-const GoogleService = require('../services/GoogleServices')
+const GoogleService = require('../services/GoogleService')
 
 exports.searchImage = async (req, res, next) => {
   if (!req.query.q) {
