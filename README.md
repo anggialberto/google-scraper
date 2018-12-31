@@ -1,2 +1,2 @@
-# google-scrapper
+# Google Scraper
 Simple Google Scrap (Article , Image)
