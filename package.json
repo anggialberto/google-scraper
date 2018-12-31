@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Google Scrapper",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Anggi Alberto",
   "license": "MIT",
   "dependencies": {
