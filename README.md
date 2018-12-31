@@ -10,7 +10,7 @@
 http://googlescraper.herokuapp.com/api/google/article?q={keywords}&page={page}
 ```
 
-***Param :****
+***Param :***
 * q (required)
 * page (optional)
 
@@ -27,6 +27,6 @@ https://googlescraper.herokuapp.com/api/google/image?q={keywords}&page={page}
 * q (required)
 * page (optional)
 
-Example :
+***Example :***
 
 GET ```https://googlescaper.herokuapp.com/api/google/image?q=Javascript```   
