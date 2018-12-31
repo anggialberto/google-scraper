@@ -10,7 +10,7 @@ exports.searchImage = async (req, res, next) => {
 
   let PAGE = 0
   if (req.query.page) {
-    if (!Number(req.query.page) + 1) {
+    if (!Number(req.query.page + 1)) {
       res.status(200).json({
         'status': 'error',
         'message': `"page" parameter must be a number`
@@ -47,7 +47,7 @@ exports.searchArticle = async (req, res, next) => {
 
   let PAGE = 0
   if (req.query.page) {
-    if (!Number(req.query.page) + 1) {
+    if (!Number(req.query.page + 1)) {
       res.status(200).json({
         'status': 'error',
         'message': `"page" parameter must be a number`
